@@ -53,6 +53,26 @@ One hot encoder
 # 4. Modelling
 
 # 5. Conclusion
-Dengan memprediksi Customer Lifetime Value akan memberikan wawasan tentang nilai pelanggan bagi perusahaan. Temuan ini dapat membantu perusahaan membuat keputusan yang didasarkan pada pengetahuan mengenai akuisisi pelanggan, retensi pelanggan, dan strategi pemasaran.
+Setelah melakukan analisis dan pemodelan Customer Lifetime Value (CLV), berikut adalah beberapa kesimpulan yang dapat diambil dari proyek ini:
+
+Terdapat variasi nilai seumur hidup pelanggan (CLV) di antara kelompok kendaraan, jenis cakupan asuransi, jenis penawaran perpanjangan, status pekerjaan, status pernikahan, latar belakang pendidikan, jumlah kebijakan asuransi, premi bulanan otomatis, jumlah klaim total, dan tingkat pendapatan.
+Fitur-fitur seperti premi bulanan otomatis, jumlah kebijakan asuransi, dan jumlah klaim total memiliki pengaruh yang signifikan terhadap nilai seumur hidup pelanggan.
+Model machine learning yang telah dikembangkan mampu memberikan prediksi CLV yang dapat digunakan untuk mengidentifikasi pelanggan bernilai tinggi dan rendah.
 
 # 6. Recommendation
+Setelah menganalisis Customer Lifetime Value (CLV) dan mendapatkan wawasan dari model CLV, kita dapat membuat rekomendasi berharga untuk meningkatkan strategi bisnis dan memaksimalkan nilai pelanggan. Berikut adalah beberapa rekomendasi berdasarkan temuan:
+
+### 1 Customer Segmentation
+Lakukan segmentasi pelanggan berdasarkan nilai seumur hidup pelanggan. Fokuskan upaya pemasaran dan retensi pada pelanggan bernilai tinggi untuk mempertahankan dan memperluas keterlibatan mereka.
+
+### 2 Retention Strategies
+Identifikasi pelanggan dengan risiko churn tinggi berdasarkan prediksi CLV. Ambil tindakan proaktif untuk mempertahankan pelanggan tersebut dengan penawaran khusus, program loyalitas, atau perbaikan pengalaman pelanggan.
+
+### 3 Loyalty program
+Gunakan wawasan CLV untuk menyesuaikan penawaran dan promosi untuk setiap pelanggan. Berikan insentif khusus kepada pelanggan bernilai tinggi untuk meningkatkan loyalitas mereka.
+
+### 4 Customer Experience Enhancement
+Tingkatkan pengalaman pelanggan dengan meningkatkan kualitas layanan dan responsifitas. Peningkatan kualitas layanan dapat membantu mempertahankan pelanggan dan meningkatkan CLV mereka.
+
+### 5 Pricing Strategies
+Gunakan informasi CLV untuk mengoptimalkan strategi penetapan harga. Sesuaikan harga untuk pelanggan dengan nilai seumur hidup tinggi dan pertimbangkan penawaran diskon atau paket untuk meningkatkan keterlibatan pelanggan dengan nilai rendah.
