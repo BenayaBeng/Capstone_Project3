@@ -29,7 +29,9 @@ Customer Segment: Mengidentifikasi segmen pelanggan yang berbeda berdasarkan atr
 
 ### 3. Tujuan atau Solusi
 Meningkatkan Akurasi Prediksi
+
 Meningkatkan penjualan
+
 Meningkatkan Kepuasan Pelanggan
 
 # 2.Data Understanding
