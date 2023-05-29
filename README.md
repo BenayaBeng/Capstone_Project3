@@ -9,23 +9,28 @@
 
 # 1.Business Problem Understanding
 
-### 1.Stakeholder yang dapat terlibat adalah:
+### 1.Stakeholder:
 
 Tim Manajemen: Bertanggung jawab untuk pengambilan keputusan strategis terkait pemasaran, penjualan, dan keuangan.
-Tim Pemasaran: Menggunakan informasi pelanggan untuk merancang kampanye pemasaran yang lebih efektif.
-Tim Layanan Pelanggan: Membantu meningkatkan kepuasan pelanggan dengan pemahaman yang lebih baik tentang kebutuhan dan preferensi pelanggan.
-Analis Data: Bertanggung jawab untuk menganalisis data pelanggan dan menghasilkan wawasan yang berguna bagi stakeholder lainnya.
 
-### 2.Prediksi CLV: 
-Mengembangkan model yang dapat memprediksi customer lifetime value dari pelanggan berdasarkan atribut yang tersedia dalam dataset.
-Retensi Pelanggan: Menganalisis faktor-faktor yang mempengaruhi retensi pelanggan dan mengidentifikasi strategi yang efektif untuk meningkatkan retensi pelanggan.
-Segmentasi Pelanggan: Mengidentifikasi segmen pelanggan yang berbeda berdasarkan atribut pelanggan yang tersedia, sehingga dapat menyusun strategi pemasaran yang lebih terarah.
+Tim Pemasaran: Menggunakan informasi pelanggan untuk merancang kampanye pemasaran yang lebih efektif.
+
+Tim Layanan Pelanggan: Membantu meningkatkan kepuasan pelanggan dengan pemahaman yang lebih baik tentang kebutuhan dan preferensi pelanggan.
+
+Data Analyst: Bertanggung jawab untuk menganalisis data pelanggan dan 
+menghasilkan wawasan yang berguna bagi stakeholder lainnya.
+
+### 2.Masalah: 
+Prediksi CLV: Apakah prediksi CLV itu akurat
+
+Customer Retention: Menganalisis faktor-faktor yang mempengaruhi retensi pelanggan dan mengidentifikasi strategi yang efektif untuk meningkatkan retensi pelanggan.
+
+Customer Segment: Mengidentifikasi segmen pelanggan yang berbeda berdasarkan atribut pelanggan yang tersedia, sehingga dapat menyusun strategi pemasaran yang lebih terarah.
 
 ### 3. Tujuan atau Solusi
-Meningkatkan Akurasi Prediksi: Mengembangkan model yang memiliki tingkat akurasi tinggi dalam memprediksi nilai seumur hidup pelanggan.
-Meningkatkan Retensi Pelanggan: Mengidentifikasi faktor-faktor yang mempengaruhi retensi pelanggan dan mengimplementasikan strategi yang efektif untuk meningkatkan retensi pelanggan.
-Segmentasi Pelanggan yang Lebih Baik: Mengelompokkan pelanggan ke dalam segmen yang berbeda berdasarkan atribut yang relevan dalam dataset, sehingga dapat merancang strategi pemasaran yang lebih terarah dan personalisasi.
-Meningkatkan Kepuasan Pelanggan: Memahami kebutuhan dan preferensi pelanggan dengan lebih baik untuk meningkatkan pengalaman pelanggan dan kepuasan.
+Meningkatkan Akurasi Prediksi
+Meningkatkan penjualan
+Meningkatkan Kepuasan Pelanggan
 
 # 2.Data Understanding
 
