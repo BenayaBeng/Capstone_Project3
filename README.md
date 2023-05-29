@@ -52,6 +52,30 @@ One hot encoder
 
 # 4. Modelling
 
+### 1.Data Preparation
+Data input untuk model disimpan dalam DataFrame yang disebut df2. Fitur-fitur diambil dari DataFrame menggunakan metode .iloc[:,:-1], yang memilih semua kolom kecuali yang terakhir. Variabel target, 'Customer Lifetime Value', diambil menggunakan metode .to_numpy(), yang mengonversi kolom DataFrame yang dipilih menjadi array NumPy. Fitur-fitur disimpan dalam variabel X, sedangkan variabel target disimpan dalam y.
+
+### 2.Train-Test Split
+Dataset dibagi menjadi subset latih dan uji menggunakan fungsi train_test_split dari library scikit-learn. Parameter test_size diatur menjadi 0.3, yang menandakan bahwa 30% data akan digunakan untuk pengujian, sedangkan 70% akan digunakan untuk pelatihan. Parameter random_state diatur menjadi 8 untuk memastikan pemisahan yang dapat direproduksi. Subset latih dan uji yang dihasilkan disimpan dalam variabel X_train, X_test, y_train, dan y_test, secara berturut-turut.
+
+### 3.Model Training
+Model SVR diinisialisasi dengan kelas SVR dari library scikit-learn. Parameter C diatur menjadi 111111, yang mengontrol penalitas kesalahan dalam model. Nilai C yang lebih tinggi mengindikasikan kekuatan regularisasi yang lebih kecil.
+
+Pipeline dibuat menggunakan make_pipeline dari scikit-learn. Pipeline terdiri dari dua langkah: penskalaan fitur menggunakan MinMaxScaler dan penerapan model SVR. Pipeline ini memastikan bahwa transformasi penskalaan diterapkan secara konsisten selama pelatihan dan pengujian.
+
+Model kemudian dilatih dengan data latih menggunakan metode fit. Fitur (X_train) dan variabel target yang sesuai (y_train) diberikan sebagai argumen kepada metode fit.
+
+### 4.Model Evaluation
+Evaluation Metric
+
+Root Mean Squared Error (RMSE): RMSE mengukur deviasi rata-rata antara nilai prediksi dan nilai aktual. Semakin rendah nilai RMSE, semakin baik kualitas prediksi model. Nilai RMSE dihitung menggunakan fungsi mean_squared_error dari library scikit-learn.
+
+Mean Absolute Error (MAE): MAE mengukur selisih rata-rata absolut antara nilai prediksi dan nilai aktual. MAE memberikan gambaran tentang seberapa besar kesalahan rata-rata dalam prediksi model. Nilai MAE dihitung menggunakan fungsi mean_absolute_error dari library scikit-learn.
+
+R-squared (R2): R2 menunjukkan sejauh mana variasi dalam data target dapat dijelaskan oleh model. Nilai R2 berkisar antara 0 hingga 1, dengan 1 menunjukkan model yang sempurna sesuai dengan data. Nilai R2 dihitung menggunakan metode score pada objek regresi (regr).
+
+Metrik evaluasi ini memberikan informasi penting tentang performa model regresi. Nilai-nilai tersebut dicetak sebagai hasil evaluasi dari model yang dijalankan pada data uji.
+
 # 5. Conclusion
 Setelah melakukan analisis dan pemodelan Customer Lifetime Value (CLV), berikut adalah beberapa kesimpulan yang dapat diambil dari proyek ini:
 
